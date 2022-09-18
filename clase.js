@@ -1,4 +1,10 @@
+
+
+
 let numero= Number(prompt(`Cual es su edad`))
+let masedad= (numero-18)
+
+
 if (numero >=18){
 alert("Usted puede ingresar")
 }
@@ -8,12 +14,32 @@ else if(numero <18){
 else{
     alert("Eso no es un número")
 }
-
-let i=0
-while (i < 10) {
-    console.log(i)
+while (numero< 18) {
+    console.log(`Necdsita ${masedad} años mas`)
+    alert(`su edad de ${numero} no es suficient`)
     i++;
 }
+let cosas=Number
+
+const cantidades = [1, 2, 3, 4];
+
+
+const cantidad = 0;
+const sumaCantidad = cantidades.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  cantidades
+);
+
+console.log(sumaCantidad);
+
+
+
+
+
+
+
+
+
 
 
 
